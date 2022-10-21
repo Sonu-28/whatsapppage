@@ -1,0 +1,140 @@
+*, body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #d2d2d3;
+}
+
+#header{
+   width: 100%;
+   height: 15vh;
+   background-color:#00a884;
+   padding-top: 2vh;
+}
+
+#web{
+    width: 98vw;
+    height: 90vh;
+    margin-left: 1vw;
+    display: flex;
+}
+
+
+.scroll{
+  width: 30vw;
+  height: 90vh;
+  background-color: #f0f2f5;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5;
+    height: 8vh;
+    width: 30vw;
+    border-right: 1px solid rgb(150, 150, 150);
+}
+
+#nav img{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+}
+
+#icon{
+    display: flex;
+    font-size: 20px;
+    color: #54656f;
+    margin-left: 18vw;
+}
+
+#icon i{
+    margin-right: 2vw;
+}
+
+#search{
+    width: 30vw;
+    height: 7vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+input[type="search"]{
+    width: 25vw;
+    height: 5vh;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #f0f2f5;
+    text-align: center;
+    margin-left: 1vw;
+}
+
+#search i{
+   margin-left: 1vw;
+   color: #54656f;
+}
+
+#name{
+   width: 30vw;
+   height: 75vh;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+
+
+.user{
+    display: flex;
+    width: 30vw;
+    height: 8vh;
+    background-color: white;
+    align-items: center;
+}
+
+.user i{
+    font-size: 40px;
+    color: #e4e5e7;
+    margin-left: 1vw;
+}
+
+.username{
+    display: flex;
+    width: 25vw;
+    height: 8vh;
+    margin-left: 1vw;
+    align-items: center;
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.username p{
+    font-size: larger;
+    margin-right: 18vw;
+}
+
+.time{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #54656f;
+}
+
+
+#chat{
+    width: 68vw;
+    height: 90vh;
+    border-bottom: 5px solid #25d366;
+    background-color: #f0f2f5;
+}
+
+
+#image{
+    margin-top: 25vh;
+    margin-left: 14vw;
+}
+#img[alt="pic"]{
+    height: 20vh;
+    width: 20vw;
+}
